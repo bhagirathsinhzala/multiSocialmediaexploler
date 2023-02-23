@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>
+        my page
+    </title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+    </style>
+</head>
+
+
+<body text="Green" text-background="red">
+    <nav>
+        <a href="a.html"> <input type="button" id="BACK" value="GO BACK"></a>
+    </nav>
+
+    <div class="container">
+
+        <form>
+            <b><i>
+                    <mark>NAME:- <input type="textarea" placeholder="enter yourname" id="output"></textarea><br>
+                        <p><button type="button" onclick="runSpeechRecognition()">Speech to Text</button> &nbsp; <span id="action"></span></p>
+                    last name:- <input type="text" placeholder="enter your lastname"><br>
+                       
+
+                    Password:- <input type="password" placeholder="enter password"><br><br>
+                    
+
+                    E-mail:- <input type="email" id="email" placeholder="enter your email"><br><br>
+
+                    Age:- <input type="number" id="age" aria-placeholder="enter your age"><br><br>     
+
+                    phone no:-</mark><select>
+                        <option>+91</option>
+                        <option>+92</option>
+                        <option>+93</option>
+                        <option>+99</option>
+                        <option>+108</option>
+                    </select>
+                    <input type="" id="number"><br><br>
+                <mark>
+                    Date:-<input type="date" id="Date" name="date"><br><br>
+                    Time:-<input type="time" id="time"><br><br></mark>
+                  <mark> gender:-</mark> Male<input type="radio" value="m" name="male">
+                    feMale<input type="radio" value="m" name="male"><br><br>
+                   <mark>hobby:-</mark> 
+                 <mark>   tkd .</mark><input type="checkbox"><br>
+                 <mark> volleyball .</mark>  <input type="checkbox"><br>
+                   <mark> kick-boxing .</mark><input type="checkbox"><br>
+                   <mark> Raiding .</mark><input type="checkbox"><br>
+                   <mark> Sliping .</mark><input type="checkbox"><br><br>
+
+                    city:-</mark> 
+                    <select>
+                        <option>Somnath</option>
+                        <option>Rajkot</option>
+                        <option>junagadh</option>
+                        <option>kodinar</option>
+                        <option>vadodara</option>
+
+                    </select><br><br>
+                    <form method="post" enctype="multipart/form-data">
+                        <div>
+                          <label for="image_uploads">Add your Certificate </label>
+                          <input
+                            type="file"
+                            id="image_uploads"
+                            name="image_uploads"
+                            accept=".jpg, .jpeg, .png"
+                            multiple />
+                        </div>
+                    
+                      </form>
+                      
+
+                    <input type="submit" id="Submit" value="Submit">
+                    <input type="reset" id="clear" value="reset">
+            </b>
+            </i>
+        </form>
+    </div>
+
+
+</body>
+
+<script src="form.jS"></script>
+
+</html>

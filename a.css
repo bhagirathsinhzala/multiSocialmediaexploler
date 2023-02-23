@@ -1,0 +1,199 @@
+.body{
+    background-size: cover;
+    width: 100;
+
+}
+nav{
+background-color: rgb(151, 138, 138);
+border-radius: 17px;
+text-emphasis-color: rgb(0, 0, 0);
+top: 0;
+overflow: hidden;
+align-items: center;
+width: 100%;
+position: sticky;
+
+}
+
+nav ul{
+overflow: auto;
+margin-top: 0;
+}
+nav li{
+float: left;
+list-style: none;
+margin: 10px 10px;
+text-decoration: none;
+padding: 0px 60px;
+
+}
+nav li a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+
+}
+nav li a:hover{
+    color: rgb(255, 0, 0);
+    font-size: 120%;
+}
+.search{
+padding: 10px 5px;
+border-radius: 10px;
+cursor: pointer;
+float: right;
+border-radius: 20px; 
+}
+.search :hover{
+    color: rgba(31, 166, 13, 0.719);
+}
+ 
+textarea{
+    text-emphasis-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 20px;
+    align-items: center;
+    margin-left: 420px;
+    text-align: left;
+    border: 0px;
+    outline: auto;
+    box-shadow:inset 26px -15px 1px grey;
+    border-radius: 36px;
+    
+}
+
+
+button{
+    padding: 10px 14px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: brown;
+    color: white;
+     border-radius: 8px;
+     margin-left: 777px;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 417px;
+    margin-bottom: 10px;
+    text-shadow: 56px -8px 2px grey;
+    letter-spacing: 2px;
+}
+
+#zala{
+border-radius: 10px;
+
+}
+.bottom{
+    position: sticky;
+    background-color: black;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color:white;
+    width: 65%;
+    margin: 23px auto;
+    border-radius: 15px;
+    padding: 34px;
+    background-image: url("https://source.unsplash.com/random");
+}
+.logo1 img{
+    DiSplay:  block;
+    cursor: pointer;
+    margin-right: 2220px;
+    width: 55px ;
+    size: auto;
+    border-radius: 10px;
+
+}
+
+#zala1 :hover{
+  -webkit-animation: Spin 1S linear infinite;
+  -moz-animation: Spin 1S linear infinite;
+  animation: Spin 1S linear infinite;
+}
+
+@-webkit-keyframeS Spin{
+    100%{tranSform: rotate(360deg);}
+}
+@-moz-keyframes Spin{
+    100%{tranSform: rotate(360deg);}
+}
+@keyframes Spin{
+    100%{tranSform: rotate(360deg);}
+}
+
+.container{
+ color: red;
+ font-Size: 50px !important;
+}
+
+#zala2 :hover{
+    transform: rotate(22deg);
+}
+
+
+#zala3 :hover{
+    transform: rotate(22deg);
+}
+
+
+#zala4 :hover{
+    transform: rotate(22deg);
+}
+
+
+#zala5 :hover{
+    transform: rotate(22deg);
+}
+
+.logo2 img{
+    cursor: pointer;
+    margin-right: 2220px;
+    margin-top: 33px;
+    width: 55px ;
+    size: auto;
+    border-radius: 15px;
+    
+}
+
+.logo3 img {
+    cursor: pointer;
+    margin-right: 2220px;
+    margin-top: 33px;
+    width: 55px ;
+    size: auto;
+    border-radius: 10px;
+    animation-name: instagram;
+
+}
+
+.logo4 img{
+    cursor: pointer;
+    margin-right: 2220px;
+    margin-top: 33px;
+    width: 50px ;
+    height: 47px;
+    size: auto;
+    border-radius: 70px;
+    animation-name: instagram;
+
+}
+
+.logo5 img {
+    cursor: pointer;
+    margin-right: 2220px;
+    margin-top: 33px;
+    width: 50px ;
+    height: 47px;
+    size: auto;
+    border-radius: 50px;
+    animation-name: instagram;
+
+
+}
+
+    
